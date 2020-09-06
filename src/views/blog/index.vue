@@ -4,7 +4,7 @@
 			<b-container >
 				<div class="blog-items main">
 					<b-row>
-						<b-col  md="8" >
+						<b-col  md="8"  sm="8">
 							<div class="blog-item main-style" style="height: 100%;" >
 								<div class="blog-img" style="height: 100%;">
 									<img src="@/assets/images/blog-img1.jpg" class="img-fluid rounded " style="height: 100%;" alt="">
@@ -22,7 +22,7 @@
 								</div><!--blog-info end-->
 							</div><!--blog-items end-->
 						</b-col>
-						<b-col  md="4" >
+						<b-col  md="4"  sm="4">
 							<div class="blog-item" >
 								<div class="blog-img" >
 									<img src="@/assets/images/blog-img2.jpg" alt="">
@@ -51,7 +51,7 @@
 				</div><!--sec-title end-->
 				<div class="blog-items">
 					<b-row >
-						<b-col v-for="n in 4" :key="n"  lg="3" >
+						<b-col v-for="n in 4" :key="n"  lg="3"  md="3" sm="3" >
 							<div class="blog-item">
 								<div class="blog-img">
 									<img src="@/assets/images/blog-img3.jpg" alt="">
@@ -119,20 +119,15 @@
 								</div><!--wd-posts end-->
 							</div>
 							<div class="widget widget-social-links">
-								<ul>
+								<ul class="text-center">
 									<li>
 										<a href="#" title="" class="facebook"><i class="fab fa-facebook-f"></i></a>
 										<h4>3,553 </h4>
 										<span>Followers</span>
 									</li>
 									<li>
-										<a href="#" title="" class="twitter"><i class="fab fa-twitter"></i></a>
+										<a href="#" title="" class="pinterest"><i class="fab fa-instagram"></i></a>
 										<h4>11,211 </h4>
-										<span>Followers</span>
-									</li>
-									<li>
-										<a href="#" title="" class="pinterest"><i class="fab fa-pinterest-p"></i></a>
-										<h4>9,328 </h4>
 										<span>Followers</span>
 									</li>
 								</ul>
