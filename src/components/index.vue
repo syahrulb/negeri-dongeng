@@ -12,8 +12,8 @@
     </div>
 </template>
 <script>
-import HeaderFrontEnd from "./template/blog/Header";
-import FooterFrontEnd from "./template/blog/Footer";
+import HeaderFrontEnd from "./template/front-end/Header";
+import FooterFrontEnd from "./template/front-end/Footer";
 
 export default {
     components: {

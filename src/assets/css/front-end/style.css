@@ -742,7 +742,7 @@ header {
 	border:1px solid #e7eaeb;
 	margin-bottom: 45px;
 }
-.sidebar .widget:last-child {
+.sidebar-front .widget:last-child {
 	margin-bottom: 0;
 }
 .widget-title {

@@ -1,13 +1,13 @@
 <template>
     <div>
-        <section class="blog-section">
+        <section class="blog-section bg-white" >
 			<b-container >
 				<div class="blog-items main">
 					<b-row>
 						<b-col  md="8"  sm="8">
 							<div class="blog-item main-style" style="height: 100%;" >
 								<div class="blog-img" style="height: 100%;">
-									<img src="@/assets/images/blog-img1.jpg" class="img-fluid rounded " style="height: 100%;" alt="">
+									<img src="@/assets/images/blog-img1.jpg" class="img-fluid" style="height: 100%;" alt="">
 									<a href="#" title="" class="post-category">Lifestyle</a>
 								</div><!--blog-img end-->
 								<div class="blog-info">
@@ -44,7 +44,7 @@
 				</div>
 			</b-container>
 		</section><!--blog-section end-->
-		<section class="blog-section feat-stors sec-padding">
+		<section class="blog-section feat-stors sec-padding bg-white">
 			<div class="container">
 				<div class="sec-title">
 					<h3> Post terbaru </h3>
@@ -105,7 +105,7 @@
 						</div>
 					</b-col>
 					<b-col md="4">
-						<div class="sidebar">
+						<div class="sidebar-front">
 							<div class="widget widget-trending-posts">
 								<h3 class="widget-title">Trending</h3>
 								<div class="wd-posts">
