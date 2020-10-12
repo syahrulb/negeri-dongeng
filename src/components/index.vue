@@ -13,12 +13,14 @@
 </template>
 <script>
 import HeaderFrontEnd from "./template/front-end/Header";
+import HeaderBackEnd from "./template/back-end/Header";
 import FooterFrontEnd from "./template/front-end/Footer";
 
 export default {
     components: {
         appHeaderFrontEnd: HeaderFrontEnd,
-        appFooterFrontEnd: FooterFrontEnd
+        appHeaderBackEnd: HeaderBackEnd,
+        appFooterFrontEnd: FooterFrontEnd,
     },
     computed: {
         header(){
@@ -26,7 +28,7 @@ export default {
                 return 'appHeaderFrontEnd';
             }
             else{
-                return'';
+                return'appHeaderBackEnd';
             }
         },
         footer(){

@@ -11,8 +11,14 @@ Vue.use(VueRouter)
             path: '/',
             name: "Halaman-Utama",
             meta : "front-end",
-            component: () => import('@/views/blog/index'),
+            component: () => import('@/views/front-end/index'),
         },
+        {
+          path: 'admin/home',
+          name: "admin-home",
+          meta : "back-end",
+          component: () => import('@/views/back-end/index'),
+      },
     ]
   },
 ]
